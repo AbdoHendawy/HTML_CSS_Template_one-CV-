@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 939px;
+    position: relative;
+    background-color: #161C2B;
+}
+
+.Header {
+    width: 100%;
+    height: 200px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    position: absolute;
+    /* position: fixed;*/
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 567px;
+    height: 50px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: whitesmoke;
+}
+
+.menu ul {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    list-style-type: none;
+}
+
+.menu ul li {
+    padding-right: 15px;
+    display: inline;
+}
+
+.CV_Photo img {
+    position: absolute;
+    top: 135px;
+    left: 45%;
+    background-color: whitesmoke;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #EA4335;
+}
+
+.con_img {
+    color: #fff;
+    position: absolute;
+    display: block;
+    top: 350px;
+    left: 44%;
+}
+
+.con_img h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.con_img p {
+    color: #888888;
+    text-align: center;
+}
+
+.data {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 200px;
+    position: relative;
+    top: 600px;
+    left: 40px;
+}
+
+.Dedication,
+.Smart_Work,
+.Intelligence {
+    width: 30%;
+    height: 150px;
+    background-color: #161C2B;
+    display: inline-block;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.Dedication img,
+.Smart_Work img,
+.Intelligence img {
+    position: absolute;
+    top: 15px;
+    left: 210px;
+}
+
+.Dedication .p1,
+.Smart_Work .p1,
+.Intelligence .p1 {
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.Dedication h1,
+.Smart_Work h1,
+.Intelligence h1 {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Dedication p,
+.Smart_Work p,
+.Intelligence p {
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    color: #888888;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content {
+    width: 100%;
+    height: 935px;
+    background-color: #232835;
+}
+
+.content p,
+h1 {
+    text-align: center;
+    color: #fff;
+    top: 200px;
+}

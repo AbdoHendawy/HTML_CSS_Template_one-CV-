@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #161C2B;
+}
+
+.Header {
+    width: 100%;
+    height: 150px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 567px;
+    height: 50px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: whitesmoke;
+}
+
+.menu ul {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    list-style-type: none;
+}
+
+.menu ul li {
+    padding-right: 15px;
+    display: inline;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.img-con img {
+    width: 480px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    display: inline;
+    left: 210px;
+}
+
+.inf-con {
+    display: inline;
+    /* background-color: yellow;*/
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 750px;
+}
+
+.inf-con .inf-p1 {
+    font-size: 10px;
+    color: #CCCCCC;
+    letter-spacing: 0.2em;
+}
+
+.inf-con h1 {
+    width: 600px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #CCCCCC;
+}
+
+.inf-con .inf-p2 {
+    width: 800px;
+    font-size: 20px;
+    color: #cccccc9e;
+    font-weight: 200;
+    letter-spacing: 0.09em;
+    font-family: sans-serif;
+}
+
+.inf-con .btn_Download {
+    width: 150px;
+    height: 48px;
+    background-color: #EA4335;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    position: relative;
+    bottom: 50px;
+}
+
+.inf-01,
+.inf-02,
+.inf-03 {
+    position: relative;
+    top: 80px;
+    display: inline-block;
+    margin-right: 40px;
+    right: 150px;
+    color: #fff;
+    padding-right: 60px;
+}
+
+.inf-01 h2,
+.inf-02 h2,
+.inf-03 h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+
+/*----------------------------------------------------------------*/
+
+.data {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+.Dedication,
+.Smart_Work,
+.Intelligence {
+    width: 23%;
+    height: 150px;
+    background-color: #161C2B;
+    display: inline-block;
+    border: 1px solid #888888;
+    border-radius: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Button_data {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+}
+
+.icon_data {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.Dedication .p1,
+.Smart_Work .p1,
+.Intelligence .p1 {
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.Dedication h1,
+.Smart_Work h1,
+.Intelligence h1 {
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Dedication p,
+.Smart_Work p,
+.Intelligence p {
+    position: absolute;
+    top: 60px;
+    left: 25px;
+    color: #CCCCCC;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
